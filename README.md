@@ -4,7 +4,7 @@ This is a minimal starter application template for PSoC&trade; Control MCU devic
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-ce240786-empty-app)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDA3ODYiLCJTcGVjIE51bWJlciI6IjAwMi00MDc4NiIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IENvbnRyb2wgTUNVOiBFbXB0eSBBcHBsaWNhdGlvbiIsInJpZCI6Imhvc2Frb3RlbmFnYSIsIkRvYyB2ZXJzaW9uIjoiMS4wLjAiLCJEb2MgTGFuZ3VhZ2UiOiJFbmdsaXNoIiwiRG9jIERpdmlzaW9uIjoiTUNEIiwiRG9jIEJVIjoiSUNXIiwiRG9jIEZhbWlseSI6IlBTT0MifQ==)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDA3ODYiLCJTcGVjIE51bWJlciI6IjAwMi00MDc4NiIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IENvbnRyb2wgTUNVOiBFbXB0eSBBcHBsaWNhdGlvbiIsInJpZCI6Imhvc2Frb3RlbmFnYSIsIkRvYyB2ZXJzaW9uIjoiMS4wLjEiLCJEb2MgTGFuZ3VhZ2UiOiJFbmdsaXNoIiwiRG9jIERpdmlzaW9uIjoiTUNEIiwiRG9jIEJVIjoiSUNXIiwiRG9jIEZhbWlseSI6IlBTT0MifQ==)
 
 ## Requirements
 
@@ -13,6 +13,7 @@ This is a minimal starter application template for PSoC&trade; Control MCU devic
    - KIT_PSC3M5_EVK: v1.0.3
    - KIT_PSC3M5_CC1: v1.0.3
    - KIT_PSC3M5_CC2: v1.0.3
+   - KIT_PSC3M5_2GO: v2.0.1
 - Programming language: C
 
 - Associated parts: All PSoC&trade; Control C3 MCU parts
@@ -29,6 +30,7 @@ This is a minimal starter application template for PSoC&trade; Control MCU devic
 - [PSOC&trade; Control C3M5 Evaluation Kit](https://www.infineon.com/KIT_PSC3M5_EVK) (`KIT_PSC3M5_EVK`) – Default value of `TARGET`
 - [PSOC&trade; Control C3M5 Digital Power Control Card](https://www.infineon.com/KIT_PSC3M5_CC1) (`KIT_PSC3M5_CC1`)
 - [PSOC&trade; Control C3M5 Motor Drive Control Card](https://www.infineon.com/KIT_PSC3M5_CC2) (`KIT_PSC3M5_CC2`)
+- [PSOC&trade; Control C3M5 Compact Kit](https://www.infineon.com/KIT_PSC3M5_2GO) (`KIT_PSC3M5_2GO`)
 
 ## Hardware setup
 
@@ -176,6 +178,7 @@ Document title: *CE240786* - *PSoC&trade; Control MCU: Empty Application*
  Version | Description of change
  ------- | ---------------------
  1.0.0   | New code example
+ 1.0.1   | Added support for KIT_PSC3M5_2GO
 
 <br>
 
